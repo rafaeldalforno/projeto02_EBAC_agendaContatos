@@ -96,3 +96,49 @@ table td {
 table td img {
     width: 40px;
 }
+
+
+@media screen and (max-width: 641px){
+    .container {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    form {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;    
+    }
+
+    form input {
+        font-size: 18px;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 2px solid #ff1919;
+        padding: 8px;
+        margin-bottom: 12px;
+    }
+
+    form button {
+        font-size: 18px;
+    }
+
+    table {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    table th {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    table td img {
+        width: 20px;
+    }
+}
